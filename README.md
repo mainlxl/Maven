@@ -43,7 +43,7 @@
    apply from: 'mavenpublish.gradle'
    ```
 
-3. 在Android Studio右侧，按图片说明运行`uploadArchives`脚本上传到本地。![Jietu20190222-155030](/Users/cmcm/work/Maven/assets/Jietu20190222-155030.jpg)
+3. 在Android Studio右侧，按图片说明运行`uploadArchives`脚本上传到本地。![Jietu20190222-155030](./assets/Jietu20190222-155030.jpg)
 
 4. 在本地github克隆下的目录中，提交上传的更改并push到github远程。
 
