@@ -48,13 +48,13 @@
 4. 在本地github克隆下的目录中，提交上传的更改并push到github远程。
 
 5. 使用aar
-
+   // https://www.jsdelivr.com/加速
    ```groovy
    //在项目根目录中添加maven地址 ， 改改<github用户名>/<github项目名称>
-   //本工程修改后示例：maven { url "https://raw.githubusercontent.com/Android-Mainli/Maven/master" }
+   //本工程修改后示例：maven { url "https://cdn.jsdelivr.net/gh/mainlxl/Maven@master" }
    allprojects {
        repositories {
-           maven { url "https://raw.githubusercontent.com/<github用户名>/<github项目名称>/master" }
+           maven { url "https://cdn.jsdelivr.net/gh/<github用户名>/<github项目名称>@<分支名>" }
        }
    }
    //添加依赖 依次填入脚本中设定的<groupId>:<artifactId>:<version>
